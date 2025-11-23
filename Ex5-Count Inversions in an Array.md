@@ -1,5 +1,5 @@
 # Ex5 Count Inversions in an Array
-## DATE:
+## DATE:21-08-2025
 ## AIM:
 To write a Java program  to Count the number of inversions in an array where inversion is defined as: arr[i] > arr[j] and i < j.
 
@@ -54,7 +54,8 @@ public class CountInversions {
 ```
 
 ## Output:
-<img width="432" height="216" alt="image" src="https://github.com/user-attachments/assets/0c69e9d3-7471-45e3-88d0-08f81868a017" />
+<img width="377" height="256" alt="image" src="https://github.com/user-attachments/assets/e4dd96ae-4f71-4d62-897b-cbc7f236dec0" />
+
 
 
 ## Result:

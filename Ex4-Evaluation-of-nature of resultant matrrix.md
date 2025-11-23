@@ -32,49 +32,30 @@ RegisterNumber:  212224060212
 */
 
 import java.util.*;
-public class MatrixNature {
+
+public class MatrixAddShort {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter rows and columns: ");
         int r = sc.nextInt(), c = sc.nextInt();
+        int[][] A = new int[r][c], B = new int[r][c];
 
-        int[][] A = new int[r][c];
-        int[][] B = new int[r][c];
-        int[][] C = new int[r][c];
-
-        System.out.println("Enter Matrix A :");
-        for (int i = 0; i < r; i++)
+        for (int i = 0; i < r; i++)  
             for (int j = 0; j < c; j++)
                 A[i][j] = sc.nextInt();
 
-        System.out.println("Enter Matrix B:");
-        for (int i = 0; i < r; i++)
+        for (int i = 0; i < r; i++)  
             for (int j = 0; j < c; j++)
                 B[i][j] = sc.nextInt();
 
-        boolean allEven = true, allOdd = true;
-
-        System.out.println("Resultant Matrix C:");
+       
         for (int i = 0; i < r; i++) {
-            for (int j = 0; j < c; j++) {
-                C[i][j] = A[i][j] + B[i][j];
-                System.out.print(C[i][j] + " ");
-                if (C[i][j] % 2 == 0)
-                    allOdd = false;
-                else
-                    allEven = false;
-            }
+            for (int j = 0; j < c; j++)
+                System.out.print((A[i][j] + B[i][j]) + " ");
             System.out.println();
         }
-
-        if (allEven)
-            System.out.println("Resultant Matrix is EVEN.");
-        else if (allOdd)
-            System.out.println("Resultant Matrix is ODD.");
-        else
-            System.out.println("Resultant Matrix is MIXED.");
     }
 }
+
 
 ```
 

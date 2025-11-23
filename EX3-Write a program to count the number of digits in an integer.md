@@ -1,5 +1,5 @@
 # EX3 Write a program to count the number of digits in an integer.
-## DATE:
+## DATE: 18-09-2025
 ## AIM:
 To write a C program to count the number of digits in an integer.
 
@@ -44,7 +44,8 @@ public class CountDigits {
 
 
 ## Output:
-<img width="592" height="181" alt="image" src="https://github.com/user-attachments/assets/5d7a8fd9-7f0f-4a2d-aa0a-f234e864f6a6" />
+<img width="796" height="274" alt="image" src="https://github.com/user-attachments/assets/957a7ae3-b610-473f-93a9-989ec5f04b64" />
+
 
 
 
